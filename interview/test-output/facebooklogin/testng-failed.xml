@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [facebooklogin]" parallel="none">
+  <test name="verfing_fblogin(failed)" parallel="none">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="interview.Fb_login">
+        <methods>
+          <include name="Verify_Validlogin"/>
+        </methods>
+      </class> <!-- interview.Fb_login -->
+    </classes>
+  </test> <!-- verfing_fblogin(failed) -->
+</suite> <!-- Failed suite [facebooklogin] -->
