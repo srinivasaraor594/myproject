@@ -18,7 +18,7 @@ public class Fb_loginpage extends Breowserconfig {
 	@Test(priority=2)
 	public void InValidlogin()  {
 		loginpage lp = new loginpage(driver);
-		lp.login("srinivasaraor59", "850099179");
+		lp.login("srinivasaraor59", "8500991792");
 	}
 
 	
